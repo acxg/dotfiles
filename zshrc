@@ -118,7 +118,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rc="rails console"
 alias ber="bundle exec rspec"
-alias e2e="yarn --cwd components/manage build:watch"
+alias ew="yarn --cwd components/manage build:watch"
 alias ts="yarn --cwd components/manage test:main"
 alias lg="lazygit"
 alias temp="sysctl -n machdep.xcpm.cpu_thermal_level"
